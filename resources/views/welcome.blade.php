@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    @vite('resources/css/app.css')
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="w-screen h-screen bg-white flex flex-col md:flex-row px-12 md:px-0 justify-center items-center align-middle gap-x-20">
     <object data="{{ asset('svg/data.svg') }}" class="md:w-80 w-full" type=""></object>
